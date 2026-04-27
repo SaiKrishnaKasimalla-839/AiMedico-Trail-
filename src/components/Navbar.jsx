@@ -10,12 +10,11 @@ function Navbar() {
       </div>
 
       <div className="nav-links">
-        <a href="#features">Features</a>
-        <a href="#modules">Modules</a>
-        <a href="#preview">Dashboard</a>
-        <a href="#pricing">Pricing</a>
-      </div>
-
+  <a href="#features" className="nav-link">Features</a>
+  <a href="#modules" className="nav-link">Modules</a>
+  <a href="#preview" className="nav-link">Dashboard</a>
+  <a href="#pricing" className="nav-link">Pricing</a>
+</div>
       <button className="nav-cta">Get Started</button>
     </nav>
   );
