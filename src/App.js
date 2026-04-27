@@ -1,13 +1,49 @@
+import "./styles/global.css";
+import "./App.css";
+
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import Features from "./components/Features";
+import HowItWorks from "./components/HowItWorks";
+import Modules from "./components/Modules";
+import DashboardPreview from "./components/DashboardPreview";
+import Emergency from "./components/Emergency";
+import StatsBar from "./components/StatsBar";
+import Testimonials from "./components/Testimonials";
+import Pricing from "./components/Pricing";
+import CTA from "./components/CTA";
+import Footer from "./components/Footer";
 
 function App() {
-  return (
-    <>
-      <Navbar />
-      <Hero />
-    </>
-  );
+return ( 
+<div className="App">
+
+  <Navbar />
+
+  <Hero />
+
+  <StatsBar />
+
+  <Features />
+
+  <HowItWorks />
+
+  <Modules />
+
+  <DashboardPreview />
+
+  <Emergency />
+
+  <Testimonials />
+
+  <Pricing />
+
+  <CTA />
+
+  <Footer />
+
+</div>
+);
 }
 
 export default App;
